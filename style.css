@@ -52,19 +52,21 @@ body {
   border: 0 solid transparent;
   background-color: transparent;
 }
-.intro {
-  margin: 48px 0;
+
+section {
+    margin: 48px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
 }
-h1 {
+h1, h2, h3 {
   color: hsl(228, 39%, 23%);
+  
 }
-p,
-a {
+p{
   color: hsl(233, 12%, 13%);
+  line-height: 1.6;
 }
 .ul_mobile {
   display: flex;
@@ -80,4 +82,7 @@ ul li {
 a {
   text-decoration: none;
   font-weight: 700;
+}
+.bullets{
+  display: flex;
 }
