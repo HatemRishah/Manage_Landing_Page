@@ -87,28 +87,38 @@ a {
 .bullets {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  gap: 20px;
+  gap: 16px;
+  margin-bottom: 40px;
 }
-.bullets > div {
+.bullet-header {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 9px;
-  height: 36px;
+  gap: 16px;
+  background-color: hsl(13, 100%, 96%);
+  border-radius: 20px 0 0 20px;
+
+  margin-right: -24px;
 }
-.bullets > div > p {
+.number {
   color: white;
   background-color: hsl(12, 88%, 59%);
-  padding: 6px 24px;
+  padding: 8px 24px;
   border-radius: 20px;
+  font-weight: 700;
 }
-h4 {
-  font-size: 15px;
-  background-color: hsl(12deg 88% 59% / 20%);
-  padding: 9px 0px;
-  box-shadow:
-    80px 0px 0px 0px hsl(12deg 88% 59% / 20%),
-    -30px 0px 0px 0px hsl(12deg 88% 59% / 20%);
+.bullet-header h4 {
+  font-size: 16px;
+  color: hsl(228, 39%, 23%);
+  font-weight: 700;
 }
 
+@media (min-width: 768px) {
+  .bullet-header {
+    background-color: transparent;
+    margin-right: 0;
+  }
+
+  .bullet-desc {
+    margin-left: 80px;
+  }
+}
