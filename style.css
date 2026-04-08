@@ -66,7 +66,7 @@ h4 {
   color: hsl(228, 39%, 23%);
 }
 p {
-  color: hsl(233, 12%, 13%);
+  color: hsla(233, 12%, 13%, 0.5);
   line-height: 1.6;
 }
 .ul_mobile {
@@ -90,13 +90,18 @@ a {
   flex-wrap: nowrap;
   gap: 20px;
 }
-.bullets > p {
-  text-align: left;
+.bullets > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
 }
-.bullets  span {
-  background-color: hsl(12, 88%, 59%);
-  border-radius: 24px;
+.bullets > div > p {
   color: white;
-  font-weight: 700;
-padding: 12px;
+  background-color: hsl(12, 88%, 59%);
+  padding: 6px 24px;
+  border-radius: 20px;
+}
+h4 {
+  font-size: 15px;
 }
