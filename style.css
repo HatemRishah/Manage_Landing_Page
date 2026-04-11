@@ -93,7 +93,7 @@ a {
 .bullet-header {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 8px;
   background-color: hsl(13, 100%, 96%);
   border-radius: 20px 0 0 20px;
 
@@ -107,7 +107,7 @@ a {
   font-weight: 700;
 }
 .bullet-header h4 {
-  font-size: 15px;
+  font-size: 16px;
   color: hsl(228, 39%, 23%);
   font-weight: 700;
 }
