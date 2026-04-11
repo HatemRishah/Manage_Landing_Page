@@ -112,6 +112,24 @@ a {
   font-weight: 700;
 }
 
+.card {
+  background-color: hsl(0 0% 95%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 70px 14px 32px 14px;
+  margin: 20px 0;
+  position: relative;
+}
+.card > img {
+  height: 96px;
+  width: 96px;
+  position: absolute;
+  top: -40px;
+}
+
+
 @media (min-width: 768px) {
   .bullet-header {
     background-color: transparent;
