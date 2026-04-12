@@ -19,3 +19,4 @@ document.addEventListener("click", (e) => {
     toggleIcon.src = "images/icon-hamburger.svg";
   }
 });
+
